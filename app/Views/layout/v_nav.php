@@ -12,10 +12,27 @@
                  <li><a href="<?= base_url('gedung') ?>">Gedung</a></li>
                  <li><a href="<?= base_url('ruangan') ?>">Ruangan</a></li>
                  <li><a href="<?= base_url('prodi') ?>">Program Studi</a></li>
-                 <li><a href="<?= base_url('dosen') ?>">Dosen</a></li>
-                 <li><a href="#">Mahasiswa</a></li>
+                 <li><a href="<?= base_url('ta') ?>">Tahun Akademik</a></li>
+                 <li><a href="<?= base_url('matkul')?>">Mata Kuliah</a></li>
+                 <li><a href="<?= base_url('dosen')?>">Dosen</a></li>
+                 <li><a href="<?= base_url('mahasiswa')?>">Mahasiswa</a></li>
+                 <li><a href="<?= base_url('user')?>">User</a></li>
              </ul>
          </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Akademik <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="<?= base_url('fakultas') ?>">Akademik</a></li>
+<!--                        <li><a href="--><?//= base_url('fakultas') ?><!--">Menu 2</a></li>-->
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="<?= base_url('setting') ?>">Setting</a></li>
+                        <li><a href="<?= base_url('user') ?>">User</a></li>
+                    </ul>
+                </li>
          <li><a href="#">About</a></li>
          <?php } ?>
 
@@ -83,7 +100,7 @@
  <div class="content-wrapper">
      <div class="container">
          <!-- Content Header (Page header) -->
-         <!-- <section>                       
+         <!-- <section>
          <h1>
              Top Navigation
          </h1>

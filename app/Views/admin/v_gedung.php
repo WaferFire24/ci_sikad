@@ -57,7 +57,7 @@
 
     </div>
 </div>
-<!-- /.modal -->
+<!-- /.modal Add-->
 <div class="modal fade" id="add">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
@@ -85,7 +85,7 @@
     </div>
     <!-- /.modal-dialog -->
 </div>
-<!-- /.modal -->
+<!-- /.modal Edit -->
 <?php foreach ($gedung as $key => $value) { ?>
 <div class="modal fade" id="edit<?= $value['id_gedung'] ?>">
     <div class="modal-dialog modal-sm">
